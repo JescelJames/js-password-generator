@@ -1,5 +1,22 @@
-// Assignment Code
+// DEPENDENCIES
 var generateBtn = document.querySelector("#generate");
+
+// DATA 
+
+
+// FUNCTIONS
+
+
+//USER INTERACTION
+
+
+// INITIALIZATION
+
+
+
+
+// Assignment Code
+
 
 // Write password to the #password input
 function writePassword() {
