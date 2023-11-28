@@ -3,9 +3,6 @@ var generateBtn = window.document.querySelector("#generate"); // <button>
 
 // DATA 
 
-
-
-
 // FUNCTIONS // Write password to the #password input
 function generatePassword() {
     var lowercaseAll = 'abcdefghijklmnopqrstuvwxyz';
@@ -14,44 +11,34 @@ function generatePassword() {
     var symbolsAll = '!@#$%^&*()_+{}:"<>?|[];\',./`~';
     var userPassword = "";
     var allCharacters = lowercaseAll + uppercaseAll + numbersAll + symbolsAll;
+    
     var useLowercase = confirm("Do you want to include lowercase characters?");
+    var useUppercase = confirm("Do you want to include uppercase characters?");
+    var useNumbers = confirm("Do you want to include numbers?");
+    var useSymbols = confirm("Do you want to include symbols?");
 
-  for (var i = 0; i < length; i++) {
-    var randomChar = Math.floor(Math.random() * allCharacters.length);
+    if (!useLowercase && !useUppercase && !useNumbers && !useSymbols) {
+      alert("At least one character type must be selected.");
+      return '';
+    }
 
-    userPassword = userPassword + allCharacters.substring(randomChar, randomChar + 1);
+    for (var i = 0; i < length; i++) {
+      var randomCharacter = Math.floor(Math.random() * allCharacters.length);
+      userPassword = userPassword + allCharacters[randomCharacter];
+    }
+
+    return userPassword;
 }
 
-return userPassword;
-}
-
-
-
-
-
-
-// generatePassword();
 
 function writePassword() {
   var password = generatePassword();
+
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
 
 
-
-
-// function hiToUser() {
-//   alert("Hi!");
-// }
-// hiToUser();
-
-
-// function askUser() {
-// prompt("Would you like to generate a password: "); 
-
-// } 
-// askUser();
 
 
 
@@ -62,7 +49,6 @@ generateBtn.addEventListener("click", writePassword);
 
 
 
-// INITIALIZATION
 
 
 
