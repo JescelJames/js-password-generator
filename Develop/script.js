@@ -12,10 +12,10 @@ function generatePassword() {
     var userPassword = "";
     var allCharacters = lowercaseAll + uppercaseAll + numbersAll + symbolsAll;
     
-    var useLowercase = confirm("Do you want to include lowercase characters?");
-    var useUppercase = confirm("Do you want to include uppercase characters?");
-    var useNumbers = confirm("Do you want to include numbers?");
-    var useSymbols = confirm("Do you want to include symbols?");
+    var useLowercase = window.confirm("Do you want to include lowercase characters?");
+    var useUppercase = window.confirm("Do you want to include uppercase characters?");
+    var useNumbers = window.confirm("Do you want to include numbers?");
+    var useSymbols = window.confirm("Do you want to include symbols?");
 
     if (!useLowercase && !useUppercase && !useNumbers && !useSymbols) {
       alert("At least one character type must be selected.");
@@ -37,10 +37,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
-
-
-
-
 
 
 //USER INTERACTION // Add event listener to generate button
