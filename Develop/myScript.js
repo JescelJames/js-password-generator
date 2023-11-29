@@ -9,7 +9,6 @@ var generateButton = document.getElementById('generateButton'); //<button id="ge
 function generatePassword() { 
     //Prompt for length
     var passwordLength;
-
     while (true) {
         passwordLength = prompt("Enter the desired length of at least 8 characters and no more than 128 characters");
         // Convert passwordLength to a number
@@ -31,25 +30,23 @@ function generatePassword() {
     var useSymbols = confirm("Lastly, do you want to include SYMBOLS?");
  
 
-    // If validations
+    // If Validations
     if (!useLowercase && !useUppercase && !useNumbers && !useSymbols) {
       alert("At least one character type must be selected.");
       return '';
     }
-     if (useLowercase) allCharacters = allCharacters + lowercaseAll;
+    if (useLowercase) allCharacters = allCharacters + lowercaseAll;
     if (useUppercase) allCharacters += uppercaseAll;
     if (useNumbers) allCharacters += numbersAll;;;
     if (useSymbols) allCharacters += symbolsAll;
 
-    //Possible characters
+
+    //Possible Characters
     var lowercaseAll = 'abcdefghijklmnopqrstuvwxyz';
     var uppercaseAll = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     var numbersAll = '0123456789';
     var symbolsAll = '!@#$%^&*()_+{}:"<>?|[];\',./`~';
     var allCharacters = '';
-
-    //Create a string of possible characters
-    // var allCharacters = lowercaseAll + uppercaseAll + numbersAll + symbolsAll;
 
 
     //Randomized allCharacters.length
