@@ -37,18 +37,20 @@ The HTML and CSS in this code was prebuilt.  I made most of my updates and chang
 
 
 #### To learn functions: 
-- https://www.youtube.com/watch?v=FOD408a0EzU&t=416s&ab_channel=WebDevSimplified
-- https://www.youtube.com/watch?v=j1laALb8OVM&t=3796s&ab_channel=freeCodeCamp.org
+- Web Dev Simplified:  https://www.youtube.com/watch?v=FOD408a0EzU&t=416s&ab_channel=WebDevSimplified
+- FreeCodeCamp.orghttps://www.youtube.com/watch?v=j1laALb8OVM&t=3796s&ab_channel=freeCodeCamp.org
 
 
 #### Music while coding:
-- https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
+- Chill Music Lab:  https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
 
 
-#### Learn more Javascript
-- https://www.w3schools.com/js/
+#### Learn more Javascript:
+- W3schools.com:  https://www.w3schools.com/js/
 
 
+#### Accomodations
+- Old Dominion University Library:  https://ww1.odu.edu/learningcommons
 
 ## Contact
 For any additional questions about this project, feel free to contact me at jesceljames@gmail.com
