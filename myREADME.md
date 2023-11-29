@@ -20,6 +20,7 @@
 7. That math.floor and math.random seem to go together when creating a random password generator based on my research.
 8. That eventListener can be used for clicks, double clicks
 9. That parseInt helps to identify string value and return to integer, using radix parameter 10. 
+10. console.log can be a quick way to check if button's event listener is working.
 
 
 ## Code Description
@@ -29,23 +30,23 @@ The HTML and CSS in this code was prebuilt.  I made most of my updates and chang
 
 ## Credits
 
-My Instructors:
-Ben Wright (Who taught how to structure the code in 5 ways: Dependencies, Data, Functions, User Interactions, and Initializations)
-Max Ohsawa (Who helped me understand functions.)
-Erik Sayer (Who helped me figure out what is missing with my code to make it work!)
+#### My Instructors:
+- Ben Wright (Who taught how to structure the code in 5 ways: Dependencies, Data, Functions, User Interactions, and Initializations.  This appraoch helps tremendously!)
+- Max Ohsawa (Who helped me understand functions. Such an easy person to talk to and listen.)
+- Erik Sayer (Who guided me how to find what is missing with my code to make it work. He did not tell me the answer, he showed me the way.  I like his approach.)
 
 
-To learn functions: 
-https://www.youtube.com/watch?v=FOD408a0EzU&t=416s&ab_channel=WebDevSimplified
-https://www.youtube.com/watch?v=j1laALb8OVM&t=3796s&ab_channel=freeCodeCamp.org
+#### To learn functions: 
+- https://www.youtube.com/watch?v=FOD408a0EzU&t=416s&ab_channel=WebDevSimplified
+- https://www.youtube.com/watch?v=j1laALb8OVM&t=3796s&ab_channel=freeCodeCamp.org
 
 
-Music to code:
-https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
+#### Music while coding:
+- https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
 
 
-Learn more Javascript
-https://www.w3schools.com/js/
+#### Learn more Javascript
+- https://www.w3schools.com/js/
 
 
 
