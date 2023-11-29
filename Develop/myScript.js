@@ -35,10 +35,6 @@ function generatePassword() {
       alert("At least one character type must be selected.");
       return '';
     }
-    if (useLowercase) allCharacters = allCharacters + lowercaseAll;
-    if (useUppercase) allCharacters += uppercaseAll;
-    if (useNumbers) allCharacters += numbersAll;;;
-    if (useSymbols) allCharacters += symbolsAll;
 
 
     //Possible Characters
@@ -47,6 +43,10 @@ function generatePassword() {
     var numbersAll = '0123456789';
     var symbolsAll = '!@#$%^&*()_+{}:"<>?|[];\',./`~';
     var allCharacters = '';
+    if (useLowercase) allCharacters = allCharacters + lowercaseAll;
+    if (useUppercase) allCharacters += uppercaseAll;
+    if (useNumbers) allCharacters += numbersAll;;;
+    if (useSymbols) allCharacters += symbolsAll;
 
 
     //Randomized allCharacters.length
