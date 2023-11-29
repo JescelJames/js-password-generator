@@ -2,14 +2,14 @@
 
 ## Description
 
-This is my first JavaScript challenge: To provide the user with random password. 
+### This is my first JavaScript challenge: To provide the user with random password. 
 
 - My motivation:  To build a password generator that requires input from user such as amount of characters (must be from 8 - 128 characters) using lower case letters, upper case letters, numbers, and symbols. 
 - Why I took this challege: This is my first JavaScript challenge that required functions, ifs, while loop, prompt, confirm, getElementById, addEventListener, parseInit, math.floor, and math.random.
 - What the challenge solved:  The user can create a random password based on having the ability to select the length and type(letters, numbers, symbols) of characters.
 
 
-- What I learned:  
+### What I learned:  
 
 1. That getElementById links to an id in HTML.
 2. That it's easier to code and cleaner if I divide the codes to sections: DEPENDENCIES, DATA, FUNCTIONS, USER INTERACTIONS, AND INITIALIZATION. 
@@ -19,38 +19,35 @@ This is my first JavaScript challenge: To provide the user with random password.
 6. That return in function provides value.
 7. That math.floor and math.random seem to go together when creating a random password generator based on my research.
 8. That eventListener can be used for clicks, double clicks
+9. That parseInt helps to identify string value and return to integer, using radix parameter 10. 
 
-
-
-## Table of Contents
-
-N/A
-
-
-## Installation
-
-N/A
 
 ## Code Description
 
-This is an online portfolio using Cascading Style Sheet to properly layout a page with links and images. 
+The HTML and CSS in this code was prebuilt.  I made most of my updates and changes in the .js file. 
 
 
 ## Credits
 
 My Instructors:
-Ben Wright (Who mixes education and entertainment (edutainment) that creates a great learning environment!)
-Max Ohsawa (Who is ready to lend a hand at all times and helped me figure out flexbox structure!)
+Ben Wright (Who taught how to structure the code in 5 ways: Dependencies, Data, Functions, User Interactions, and Initializations)
+Max Ohsawa (Who helped me understand functions.)
+Erik Sayer (Who helped me figure out what is missing with my code to make it work!)
 
-GIFS:
-https://github.com/rudrabarad/Gifs
-https://giphy.com/stickers/transparent-ESVq9aLP2tUv3DxAwU
 
-Make image opacity:
-https://www.w3schools.com/css/css_image_transparency.asp#:~:text=Transparent%20Hover%20Effect&text=The%20CSS%20for%20this%20is,image%20will%20be%20transparent%20again.
+To learn functions: 
+https://www.youtube.com/watch?v=FOD408a0EzU&t=416s&ab_channel=WebDevSimplified
+https://www.youtube.com/watch?v=j1laALb8OVM&t=3796s&ab_channel=freeCodeCamp.org
 
-Make link not change color after being visited:
- https://www.shecodes.io/athena/36390-how-to-make-a-link-not-change-color-after-being-visited-in-css#:~:text=The%20text%2Ddecoration%3A%20none%3B,property%20to%20remove%20the%20underline.
+
+Music to code:
+https://www.youtube.com/watch?v=tkgmYIsflSU&ab_channel=ChillMusicLab
+
+
+Learn more Javascript
+https://www.w3schools.com/js/
+
+
 
 ## Contact
 For any additional questions about this project, feel free to contact me at jesceljames@gmail.com
