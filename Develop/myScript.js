@@ -1,5 +1,5 @@
 // DEPENDENCIES // Assignment Code
-var generateBtn = window.document.querySelector("#generate"); // <button>
+var generateBtn = window.document.querySelector("#generate"); //<button>
 
 // DATA 
 
