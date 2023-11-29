@@ -1,44 +1,61 @@
-// DEPENDENCIES // Assignment Code
+// DEPENDENCIES 
 var generateButton = document.getElementById('generateButton'); //<button id="generateButton" class="btn">
-
 
 //DATA 
 
-    var possibleCharacters = " ";
-    // var allCharacters = lowercaseAll + uppercaseAll + numbersAll + symbolsAll;
 
 //FUNCTIONS // Write password to the #password input
-  function generatePassword() { 
+function generatePassword() { 
     var lowercaseAll = 'abcdefghijklmnopqrstuvwxyz';
     var uppercaseAll = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
     var numbersAll = '0123456789';
     var symbolsAll = '!@#$%^&*()_+{}:"<>?|[];\',./`~';
-     
-    //prompt for length
+    
+    
+    //Prompt for length
     var passwordLength = prompt("Enter the desired length of at least 8 characters and no more than 128 characters");
-      
-    //validation of password length
+    
+    
+    //Validation of password length
     if (passwordLength < 8 || passwordLength > 128 || !passwordLength) {
       alert("Please choose password length between 8 and 128 characters!")
-      
     }
    
-    //Confirm character types
+
+    //Confirmation of character types
+    var useLowercase = confirm("Do you want to include lowercase characters?");
     var useUppercase = confirm("Do you want to include uppercase characters?");
     var useNumbers = confirm("Do you want to include numbers?");
     var useSymbols = confirm("Do you want to include symbols?");
-    var useLowercase = window.confirm("Do you want to include lowercase characters?");
-      if (useLowercase) {
-        possibleCharacters += lowercase;
-        }
+    
+    
+    //Validation 
     if (!useLowercase && !useUppercase && !useNumbers && !useSymbols) {
       alert("At least one character type must be selected.");
       return '';
     }
+    
+
+    //Create a string of possible characters
+
+    var allCharacters = lowercaseAll + uppercaseAll + numbersAll + symbolsAll;
+        // var possibleCharacters = '';
+        // if (useLowercase) possibleCharacters += lowercase;
+        // if (useUppercase) possibleCharacters += uppercase;
+        // if (useNumbers) possibleCharacters += numbers;
+        // if (useSymbols) possibleCharacters += symbols;
+    
+    
+    // if (useLowercase) {
+      //   possibleCharacters += lowercase;
+      //   }
+
 
     for (var i = 0; i < length; i++) {
+      //Randomized allCharacters.length
       var randomCharacters = Math.floor(Math.random() * allCharacters.length);
-      userPassword = userPassword + allCharacters[randomCharacters];
+      
+      userPassword += allCharacters[randomCharacters];
     }
 
     return userPassword;
@@ -46,17 +63,18 @@ var generateButton = document.getElementById('generateButton'); //<button id="ge
 
 
 
-
-  function writePassword() {
-  var password = generatePassword();
-  var passwordText = document.querySelector("#password");
-  passwordText.value = password;
+function createPassword() {
+    var newPassword = generatePassword();
+  
+    var passwordText = document.getElementById('passwordTextArea');
+  
+    passwordText.value = newPassword;
 }
 
 
-//USER INTERACTION
-  //Event listener for #generateButton.
-  generateButton.addEventListener("click", writePassword);
+//USER INTERACTION//Event listener for #generateButton.
+  
+generateButton.addEventListener("click", createPassword);
 
 
 
