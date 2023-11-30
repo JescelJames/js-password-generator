@@ -3,6 +3,7 @@
 ## Description
 
 ### This is my first JavaScript challenge: To provide the user with random password. 
+![password-generator](https://github.com/JescelJames/js-password-generator/assets/105643185/d3ec2426-1ec9-4366-a7d6-d43468e68510)
 
 
 - Challenge Link: https://jesceljames.github.io/js-password-generator/
