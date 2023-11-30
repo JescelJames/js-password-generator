@@ -3,6 +3,7 @@
 ## Description
 
 ### This is my first JavaScript challenge: To provide the user with random password. 
+![password-generator](https://github.com/JescelJames/js-password-generator/assets/105643185/d3ec2426-1ec9-4366-a7d6-d43468e68510)
 
 - My motivation:  To build a password generator that requires input from user such as amount of characters (must be from 8 - 128 characters) using lower case letters, upper case letters, numbers, and symbols. 
 - Why I took this challege: This is my first JavaScript challenge that required functions, ifs, while loop, prompt, confirm, getElementById, addEventListener, parseInit, math.floor, and math.random.
