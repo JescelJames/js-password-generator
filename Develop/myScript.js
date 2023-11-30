@@ -1,6 +1,7 @@
 // DEPENDENCIES //
 var generateButton = document.getElementById('generateButton'); //<button id="generateButton" class="btn">
 
+
 // FUNCTIONS //     
 function generatePassword() {
     //Prompt for length
@@ -33,7 +34,6 @@ function generatePassword() {
       return '';
     }
 
-
     //Possible Characters
     var lowercaseAll = 'abcdefghijklmnopqrstuvwxyz';
     var uppercaseAll = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
@@ -45,19 +45,14 @@ function generatePassword() {
     if (useNumbers) allCharacters += numbersAll;;;
     if (useSymbols) allCharacters += symbolsAll;
 
-
     //Randomized allCharacters.length
     var userPassword = "";
     for (var i = 0; i < passwordLength; i++) {
         var randomCharacters = Math.floor(Math.random() * allCharacters.length);
         userPassword += allCharacters[randomCharacters];
     }
-
     return userPassword;
-
 }
-
-
 
 function createPassword() {
     var passwordText = document.getElementById('passwordTextArea');
@@ -67,17 +62,6 @@ function createPassword() {
 
 // USER INTERACTION //
 generateButton.addEventListener("click", createPassword);
-
-
-
-
-
-
-// function createPassword() {
-//     var newPassword = generatePassword(); 
-//     var passwordText = document.getElementById('passwordTextArea');
-//     passwordText.value = newPassword;
-// }
 
 
 
